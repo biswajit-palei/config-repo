@@ -3,6 +3,7 @@ spring:
     url: jdbc:mysql://localhost:3306/claimsdb
     username: root
     password: test
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
     hibernate:
